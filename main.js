@@ -8,6 +8,10 @@ prefix="";
 function stringifyNumber(number) {
 
         var stringifiedNumber = "";
+        if(number==0)
+        {
+                return digitToString[number];
+        }
         while(number>0) {
                 var remainder = number%10;
                 var digitString = digitToString[remainder];
