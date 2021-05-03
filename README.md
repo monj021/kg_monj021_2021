@@ -1,7 +1,8 @@
 # kg_monj021_2021
 
 
-1. File name: main.js 
+1. File name: main.js,
+ 
 Description: Reads an array of integers from the command line and converts them into an array of strings representing the phonetic equivalent of the integers.
 
 For example, for a given integer array of the form [12, 345, 67],  the string that is printed out is 
